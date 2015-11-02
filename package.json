@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node test/test.js"
   },
+  "bin": {
+    "html2bemjson": "./bin/html2bemjson.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/bem-incubator/html2bemjson"
@@ -24,6 +27,7 @@
   },
   "dependencies": {
     "bem-naming": "^0.5.1",
+    "coa": "^1.0.1",
     "htmlparser2": "3.7.3",
     "stringify-object": "^2.3.0"
   },
